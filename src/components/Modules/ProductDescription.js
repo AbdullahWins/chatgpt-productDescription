@@ -70,7 +70,7 @@ const ProductDescription = () => {
         </div>
         <textarea
           className="p-2 rounded-md border-solid border-2 border-gray-300"
-          placeholder="right sentenses will appear here!"
+          placeholder=""
           defaultValue={productOutput}
           cols="10"
           rows="10"
