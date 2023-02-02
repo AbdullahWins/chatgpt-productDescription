@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { AiContext } from "../../contexts/AiContext";
 import Footer from "../Shared/Footer";
 
-const ProductDescription = () => {
+const BlogPost = () => {
   const {
     setProductInput,
     productOutput,
@@ -29,7 +29,7 @@ const ProductDescription = () => {
           <span>
             <i className="fa-solid fa-icons"></i>
           </span>
-          --Product Description--
+          --Blog Post--
           <span>
             <i className="fa-solid fa-icons"></i>
           </span>
@@ -82,4 +82,4 @@ const ProductDescription = () => {
   );
 };
 
-export default ProductDescription;
+export default BlogPost;

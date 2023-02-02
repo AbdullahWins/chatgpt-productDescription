@@ -37,6 +37,7 @@ const AiProvider = ({ children }) => {
       console.log(error.message);
     }
   };
+  
   const aiInfo = {
     productInput,
     setProductInput,

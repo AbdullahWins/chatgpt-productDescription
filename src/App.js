@@ -1,16 +1,21 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import BlogPost from "./components/Modules/BlogPost";
 import ProductDescription from "./components/Modules/ProductDescription";
 
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/pc",
+      path: "/",
       element: <ProductDescription></ProductDescription>,
     },
     {
-      path: "/",
+      path: "/pd",
       element: <ProductDescription></ProductDescription>,
+    },
+    {
+      path: "/bp",
+      element: <BlogPost></BlogPost>,
     },
   ]);
   return (
